@@ -120,8 +120,7 @@ module domaze_logic(iResetn, iClock, start, start_two, switch_up_down, skip_to_h
 	wire draw_frame_14_enable;
 	wire draw_frame_15_enable;
 	wire draw_frame_16_enable;
-	wire draw_frame_
-	;
+	wire draw_frame_over_enable;
 	wire draw_frame_end_enable;
 
    wire increment_LEFT, increment_UP, increment_RIGHT, increment_DOWN;
