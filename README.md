@@ -8,7 +8,7 @@ A maze game played on an FPGA, developed to work on the [De1-SoC Board](https://
 
 The game displays on a VGA screen, beginning with the title screen. Press key\[3\] on the FPGA to progress through the story, which involves 3 different scenes. After each scene, a maze is drawn on the screen. You (the player) are represented by the pink square, and the destination is the white square in the maze. 
 
-To move, you can use key\[3\] and key\[1\] to move left and right respectively. Key\[2\] is used to move vertically; the switch SW\[0\] can be flicked up or down to determine which direction Key\[2\] moves. Key\[0\] is used as a reset. You can also connect the FPGA to a PS2 keyboard and use the arrow keys to control movement.
+To move, you can use key\[3\] and key\[1\] to move left and right respectively. Key\[2\] is used to move vertically; the switch SW\[0\] can be flicked up or down to determine which direction Key\[2\] moves. Key\[0\] is used as a reset. You can also connect the FPGA to a PS2 keyboard and use the WASD keys to control movement.
 
 As you progress through the game, the mazes increase in complexity, but the alloted time increases as well. Time remaining is shown on the seven-segment displays, while the ten LEDs represent the percentage of time remaining (in multiples of 10).
 
