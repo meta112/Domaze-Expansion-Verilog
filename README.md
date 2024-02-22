@@ -26,7 +26,7 @@ To add these files to the project, it will be necessary to create a ROM memory m
 - Make sure to create the module inside the directory of your project and call it by its designated file name
 
 ### The module names in the following image correspond to the file names of each ROM Module, used within domaze_fpga.v
-### image to be inserted!
+![ROM file names in domaze_fpga.v](/ReadmeImages/ROM_file_names_in_code.jpg)
 
 - Select a 3-bit wide memory with 19200 words
 - Unselect q as a registered port
