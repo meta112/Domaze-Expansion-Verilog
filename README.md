@@ -17,5 +17,22 @@ As you progress through the game, the mazes increase in complexity, but the allo
 ![Domaze Expansion Cutscene](/ReadmeImages/domaze_scene.jpg)
 ![Domaze Expansion Maze](/ReadmeImages/maze.jpg)
 
+## Adding mif files (in cutscenes folder) to project
+
+To add these files to the project, it will be necessary to create a ROM memory module for each image, which can be done through the following steps:
+
+- In your Quartus Prine project, select Tools->IP Catalog
+- Then open Installed IP->Library->Basic Functions->On Chip Memory and select the ROM port option
+- Make sure to create the module inside the directory of your project and call it by its designated file name
+
+### The module names in the following image correspond to the file names of each ROM Module, used within domaze_fpga.v
+### image to be inserted!
+
+- Select a 3-bit wide memory with 19200 words
+- Unselect q as a registered port
+- Select the intended mif file as the file to be stored in ROM memory
+- Finally, finish generating your new Verilog file and repeat for each mif file
+
+
 ### WILL ADD TO README:
 - installation/running instructions
