@@ -33,6 +33,3 @@ To add these files to the project, it will be necessary to create a ROM memory m
 - Select the intended mif file as the file to be stored in ROM memory
 - Finally, finish generating your new Verilog file and repeat for each mif file
 
-
-### WILL ADD TO README:
-- installation/running instructions
